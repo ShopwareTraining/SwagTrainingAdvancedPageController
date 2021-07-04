@@ -1,0 +1,17 @@
+{
+  "name": "swag/example-page-plugin",
+  "description": "Example plugin to display a page",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Swag\\ExampleAdvancedPageController\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Swag\\ExampleAdvancedPageController\\SwagExampleAdvancedPageController",
+    "label": {
+      "en-GB": "Example plugin to display a page"
+    }
+  }
+}
