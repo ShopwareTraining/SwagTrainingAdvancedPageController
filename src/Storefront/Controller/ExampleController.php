@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Swag\ExampleAdvancedPageController\Storefront\Controller;
+namespace SwagTraining\AdvancedPageController\Storefront\Controller;
 
 use Shopware\Core\Framework\Routing\Annotation\RouteScope;
 use Shopware\Core\System\SalesChannel\SalesChannelContext;
 use Shopware\Storefront\Controller\StorefrontController;
-use Swag\ExampleAdvancedPageController\Storefront\Page\ExampePageLoader;
+use SwagTraining\AdvancedPageController\Storefront\Page\ExampePageLoader;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -35,7 +35,7 @@ class ExampleController extends StorefrontController
     {
         $page = $this->examplePageLoader->load($request, $salesChannelContext);
         return $this->renderStorefront(
-            '@SwagExampleAdvancedPageController/storefront/page/example-advanced.html.twig',
+            '@SwagTrainingAdvancedPageController/storefront/page/example-advanced.html.twig',
             ['page' => $page]
         );
     }

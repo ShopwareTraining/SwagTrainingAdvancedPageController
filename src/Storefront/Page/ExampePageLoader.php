@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace Swag\ExampleAdvancedPageController\Storefront\Page;
+namespace SwagTraining\AdvancedPageController\Storefront\Page;
 
 use Shopware\Core\System\SalesChannel\SalesChannelContext;
 use Shopware\Storefront\Page\GenericPageLoaderInterface;
-use Swag\ExampleAdvancedPageController\Struct\Example;
+use SwagTraining\AdvancedPageController\Struct\Example;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
  * Class ExampePageLoader
- * @package Swag\ExampleAdvancedPageController\Storefront\Controller
+ * @package SwagTraining\AdvancedPageController\Storefront\Controller
  */
 class ExampePageLoader
 {

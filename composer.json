@@ -1,17 +1,17 @@
 {
-  "name": "swag/example-page-plugin",
-  "description": "Example plugin to display a page",
+  "name": "swag-training/advanced-page-controller",
+  "description": "Example plugin to display a page with page loader",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Swag\\ExampleAdvancedPageController\\": "src/"
+      "SwagTraining\\AdvancedPageController\\": "src/"
     }
   },
   "extra": {
-    "shopware-plugin-class": "Swag\\ExampleAdvancedPageController\\SwagExampleAdvancedPageController",
+    "shopware-plugin-class": "SwagTraining\\AdvancedPageController\\SwagTrainingAdvancedPageController",
     "label": {
-      "en-GB": "Example plugin to display a page"
+      "en-GB": "Example plugin to display a page with page loader"
     }
   }
 }

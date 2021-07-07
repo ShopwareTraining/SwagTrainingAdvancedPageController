@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Swag\ExampleAdvancedPageController\Storefront\Page;
+namespace SwagTraining\AdvancedPageController\Storefront\Page;
 
 use Shopware\Storefront\Page\Page;
-use Swag\ExampleAdvancedPageController\Struct\Example;
+use SwagTraining\AdvancedPageController\Struct\Example;
 
 class ExamplePage extends Page
 {
