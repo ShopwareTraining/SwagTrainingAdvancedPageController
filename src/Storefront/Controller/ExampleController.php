@@ -29,7 +29,7 @@ class ExampleController extends StorefrontController
     }
 
     /**
-     * @Route("/example/advanced", name="frontend.example.advanced", methods={"GET"})
+     * @Route("/swag-training/advanced-page-controller", name="frontend.example.advanced", methods={"GET"})
      */
     public function index(Request $request, SalesChannelContext $salesChannelContext): Response
     {
